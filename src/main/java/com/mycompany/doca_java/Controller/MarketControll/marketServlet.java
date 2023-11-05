@@ -26,7 +26,7 @@ import javax.naming.NamingException;
  *
  * @author Admin
  */
-@WebServlet(name = "marketServlet", urlPatterns = {"/marketServlet"})
+@WebServlet(name = "marketServlet", urlPatterns = {"/"})
 public class marketServlet extends HttpServlet {
 
     private final String MARKET_PAGE = "market.jsp";
