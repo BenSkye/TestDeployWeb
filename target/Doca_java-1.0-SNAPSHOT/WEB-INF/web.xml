@@ -24,7 +24,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>All</servlet-name>
-        <servlet-class>com.mycompany.doca_java.Controller.MarketControll.marketServlet</servlet-class>
+        <servlet-class>marketServlet</servlet-class>
     </servlet>
     <!--.-->
     <welcome-file-list>
