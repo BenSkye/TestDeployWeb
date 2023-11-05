@@ -12,10 +12,21 @@
         <servlet-name>DispatchServlet</servlet-name>
         <url-pattern>/DispatchServlet</url-pattern>
     </servlet-mapping>
-     <servlet-mapping>
+    <servlet-mapping>
         <servlet-name>GoogleSigninServlet</servlet-name>
         <url-pattern>/GoogleSigninServlet</url-pattern>
     </servlet-mapping>
+    
+    <!--add test-->
+    <servlet-mapping>
+        <servlet-name>All</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>All</servlet-name>
+        <servlet-class>com.mycompany.doca_java.Controller.MarketControll.marketServlet</servlet-class>
+    </servlet>
+    <!--.-->
     <welcome-file-list>
         <welcome-file>
             marketServlet
