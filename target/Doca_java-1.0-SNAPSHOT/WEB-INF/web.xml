@@ -9,8 +9,8 @@
         <servlet-class>com.mycompany.doca_java.Controller.loginSignup.GoogleSigninServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>marketServlet</servlet-name>
-        <servlet-class>com.mycompany.doca_java.Controller.MarketControll.marketServlet</servlet-class>
+        <servlet-name>ReciveRequest</servlet-name>
+        <servlet-class>com.mycompany.doca_java.Controller.ReciveRequest</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>DispatchServlet</servlet-name>
@@ -20,19 +20,15 @@
         <servlet-name>GoogleSigninServlet</servlet-name>
         <url-pattern>/GoogleSigninServlet</url-pattern>
     </servlet-mapping>
-    
-    <!--add test-->
-    
-    <servlet-mapping>
-        <servlet-name>marketServlet</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping>
-    <!--.-->
-    <welcome-file-list>
+    <!--    <welcome-file-list>
         <welcome-file>
             marketServlet
         </welcome-file>
-    </welcome-file-list>
+    </welcome-file-list>-->
+    <servlet-mapping>
+        <servlet-name>ReciveRequest</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
