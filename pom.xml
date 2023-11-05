@@ -125,7 +125,7 @@
             <version>3.0.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-<!--        <dependency>
+        <!--        <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.10.1</version>
@@ -159,28 +159,27 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>2.6</version>
+                <version>3.3.0</version>
                 <executions>
                     <execution>
-                        <phase>validate</phase>
+                        <phase>package</phase>
                         <goals>
                             <goal>copy</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${endorsed.dir}</outputDirectory>
-                            <silent>true</silent>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>jakarta.platform</groupId>
-                                    <artifactId>jakarta.jakartaee-api</artifactId>
-                                    <version>${jakartaee}</version>
-                                    <type>jar</type>
+                                    <groupId>com.heroku</groupId>
+                                    <artifactId>webapp-runner</artifactId>
+                                    <version>9.0.78.0</version>
+                                    <destFileName>webapp-runner.jar</destFileName>
                                 </artifactItem>
                             </artifactItems>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
     </build>
 
