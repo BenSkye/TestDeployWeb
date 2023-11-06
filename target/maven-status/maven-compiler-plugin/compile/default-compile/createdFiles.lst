@@ -33,6 +33,7 @@ com\mycompany\doca_java\Controller\ManageOwner\personal_Product\getPersonalProdu
 com\mycompany\doca_java\Controller\ManageAccount\UpdatePassword.class
 com\mycompany\doca_java\Controller\like\getAllLikeServlet.class
 com\mycompany\doca_java\DTO\userDTO.class
+com\mycompany\doca_java\Controller\ReciveRequest.class
 com\mycompany\doca_java\Controller\loginSignup\CreateNewAccountServlet.class
 com\mycompany\doca_java\Controller\ManageOwner\personal_Post\CreatePostServlet.class
 com\mycompany\doca_java\Controller\Chat\createMessage.class
@@ -44,7 +45,6 @@ com\mycompany\doca_java\Controller\Admin\AdminManageForumPostServlet.class
 com\mycompany\doca_java\DTO\saveProductDTO.class
 com\mycompany\doca_java\ProcessDetails\ProcessImg.class
 com\mycompany\doca_java\DAO\saveProductDAO.class
-.netbeans_automatic_build
 com\mycompany\doca_java\Controller\postDetailServlet.class
 com\mycompany\doca_java\DTO\ConversationDTO.class
 com\mycompany\doca_java\Controller\commentPost\createCommentServlet.class
